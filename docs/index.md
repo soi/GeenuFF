@@ -62,7 +62,7 @@ then the following section explains _why_ we think it's worth it.
 
 Historically, gene annotations have been encoded in some variation
 of the gff format (gtf, gff, gff3), see
-[http://gmod.org/wiki/GFF3](http://gmod.org/wiki/GFF3]).
+[http://gmod.org/wiki/GFF3](http://gmod.org/wiki/GFF3).
 There are a variety of drawbacks to these formats. Some are somewhat
 more superficial, such as the custom encoding of key, value
 pairs specifying both relationships and extra meta info 
@@ -271,7 +271,7 @@ The most common usage of a gff-like file is simply to denote which sequences
 belong to the original transcript, the final transcript and the proteins. This
 works decently with the `[inclusive start, inclusive end]` coordinates the gff-like
 formats use. However, the _implicit_ components are then inverted, and tedious, e.g.
-for an intron the coordinates are `(exclude end exon_i, exclude start exon_i+1`,
+for an intron the coordinates are `(exclude end exon_i, exclude start exon_i+1)`,
 or for the 3' untranslated region (UTR) the coordinates are 
 `[inclusive start exon, exclude start CDS)`.
 
