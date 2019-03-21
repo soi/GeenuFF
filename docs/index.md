@@ -393,11 +393,11 @@ important if trying to encode a partial protein sequence.
 * they have a source
 * they have two additional subtypes: upstream and downstream features (more info below)
 * they have many to many relationship with translateds (mostly to assign the 'protein_id')
-* they have a many to may relationship with transcribed_pieces.
+* they have a many to many relationship with transcribed_pieces.
 
 __Feature pairing:__ 
 Features _must_ always delineate a range / come in pairs on a 
-trabscribed_piece. So, where there is a feature of type X with bearing "status_open" or 
+transcribed_piece. So, where there is a feature of type X with bearing "status_open" or 
 "start", then there must be a feature downstream (3') on the same transcribed_piece,
 of this that is also of type X and is of either bearing "status_close" or "end". 
 Similarly, there may be no feature with the bearing "end" or "status_close" without
